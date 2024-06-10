@@ -1,0 +1,114 @@
+
+main {
+  max-width: 317px;
+  margin: 0 auto;
+  text-align: center;
+  background: #1A1B21;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 12px 12px 0 rgba(0,0,0,0.1);
+}
+/***** HEADER *****/
+.profile-img {
+  width: 100%;
+}
+
+.bio-name {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.bio-role {
+  color: #F3BF99;
+  font-size: 13px;
+  margin: 5px;
+}
+
+.bio-website {
+  color: #ffffff;
+  font-size: 11px;
+}
+
+.container-btn {
+  padding: 15px 0 0 0;
+}
+
+.btn-email {
+  color: #1E1F26;
+  margin-right: 8px;
+}
+
+.btn-linkedin {
+  color: #ffffff;
+  margin-right: 8px;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 9px 28px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: inherit;
+  background: #ffffff;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+button:nth-child(2) {
+  background: #5093E2;
+  color: #ffffff;
+  margin-left: 10px;
+}
+
+button:nth-child(2):hover {
+  background: rgba(80, 147, 226, 0.8);
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+/***** BIO *****/
+.container-bio {
+  padding: 30px 35px;
+}
+
+.bio-title {
+  color: #F5F5F5;
+  font-size: 16px;
+  text-align: left;
+  padding: 0;
+  margin-bottom: -5px;
+}
+
+.bio-content {
+  color: #DCDCDC;
+  text-align: left;
+  font-size: 10px;
+  line-height: 1.1rem;
+}
+
+/***** FOOTER *****/
+.footer {
+  background: #161619;
+  padding: 20px 0;
+}
+
+.btn-social {
+  color: #918E9B;
+  font-size: 25px;
+  padding: 0 12px;
+}
+
+.btn-social:hover {
+  color: rgba(145, 142, 155, 0.8);
+}
+
